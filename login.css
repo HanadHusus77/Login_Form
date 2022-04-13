@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:2px;
+}
+.main{
+    position: absolute;
+    top:30%;
+    left: 35%;
+    width: 25%;
+    padding: auto;
+    padding: bottom 19px;;
+    padding-left: 18px;
+    border: 2px solid burlywood;
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+}
+label{
+    font-size: 17px;
+    margin-bottom: 6px;
+    display: block;
+    
+}
+input{
+    font-size: 21px;
+    padding: 4px;
+    width: 87%;
+    margin-bottom: 18px;
+    
+}
+button{
+    cursor: pointer;
+    padding: 9px;
+    background-color: palevioletred;
+    color: black;
+    width: 45%;
+    border: none;
+    margin-bottom: 22px;
+    border-radius: 6px;
+}
+.login{
+    position: relative;
+    width: 92%;
+    margin-bottom: 25px;
+    background-color: yellow;
+
+}
+
+@media only screen   
+and (min-device-width : 800px)   and (max-device-width : 1000px) {
+    .centerdiv{
+        width:30%;
+        height: 55%;
+    }
+    h2{
+        font-size: 1222222em;
+    }
+    h3,h4{
+        font-size: 11px;
+        
+    }
+    .inputbox{
+        width:calc(100% - 11%);
+        height: 30px;
+        font-size:12px;
+
+    }
+    .button{
+        width: calc(89% - 23px);
+        height: 33px;
+        margin-top: 20px;
+        
+        
+    }
+}
+@media only screen   
+and (min-device-width : 792px)   and (max-device-width : 1012px) {
+    .centerdiv{
+        width: 48%;
+        height: 41%;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h3,h4{
+        font-size: 11px;
+        
+    }
+    .inputbox{
+        width:calc(105% - 13%);
+        height: 30px;
+        font: size 11px;
+
+    }
+    .button{
+        width: calc(78% - 23px);
+        height: 33px;
+        margin-top: 20px;
+        
+        
+    }
+}
